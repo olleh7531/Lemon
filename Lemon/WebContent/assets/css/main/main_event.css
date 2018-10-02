@@ -1,0 +1,137 @@
+@CHARSET "UTF-8";
+
+/*------------------------------------*/
+/*            이벤트 영역                              */
+/*------------------------------------*/
+.event {
+	position: relative;
+	width: 236px;
+	margin: 0 0 0 8px;
+	float: left;
+	height: 340px;
+}
+
+.event .event_default {
+	position: absolute;
+	overflow: hidden;
+	width: 236px;
+	height: 315px;
+	top: 24px;
+	z-index: 1;
+}
+
+/*------------------------------------*/
+/*            이벤트 컨트롤러                    */
+/*------------------------------------*/
+.event .play_control {
+	overflow: hidden;
+	position: absolute;
+	top: 1px;
+	right: 2px;
+	text-align: right;
+	line-height: 0;
+}
+
+/*------------------------------------*/
+/*            이벤트 컨트롤러 페이지                   */
+/*------------------------------------*/
+/* jsp의 a.image_type24 갯수만큼 인디케이터를 넣는다. */
+.event .play_control .move {
+    display: inline-block;
+    margin: 2px 0 0 0;
+}
+
+/*------------------------------------*/
+/*          이벤트 컨트롤러 일시 정지                   */
+/*------------------------------------*/
+.event .play_control .d_btn_ctrl {
+	float: right;
+	margin-left: 10px;
+}
+
+.event .play_control .d_btn_ctrl span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+}
+
+.event .play_control .pause span {
+    background-image: url("../../../assets/img/main/btn_page_music.png");
+    background-repeat: no-repeat;
+    background-position: left -171px;
+}
+
+/*------------------------------------*/
+/*            이벤트 컨트롤러 재생                              */
+/*------------------------------------*/
+.event .play_control .play span {
+    background-image: url("../../../assets/img/main/btn_page_music.png");
+    background-repeat: no-repeat;
+    background-position: left -155px;
+}
+.event .play_control .d_btn_ctrl span {
+    display: inline-block;
+    width: 15px;
+    height: 15px;
+    font-size: 0;
+    line-height: 0;
+    vertical-align: top;
+}
+
+/*------------------------------------*/
+/*            이벤트 앨범 표지                             */
+/*------------------------------------*/
+.image_type24 {
+	display: block;
+	position: relative;
+	width: 185px;
+	height: 288px;
+	font-size: 0;
+	line-height: 0;
+}
+
+.image_type24 .bg_album_frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 185px;
+	height: 288px;
+	background-image:
+		url("../../../assets/img/main/main_event_bg_album_frame.png");
+	background-repeat: no-repeat;
+	background-position: -662px -782px;
+	cursor: pointer;
+}
+
+.event div a span.bg_album_frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 236px;
+	height: 315px;
+	background-image:
+		url("../../../assets/img/main/main_new_album_bg_frame.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.event .event_default a span.bg_album_frame {
+	position: absolute;
+	top: 0;
+	left: 0;
+	width: 236px;
+	height: 315px;
+	background-image:
+		url("../../../assets/img/main/main_new_album_bg_frame.png");
+	background-repeat: no-repeat;
+	background-position: 0 0;
+}
+
+.event .event_list .image_type24 {
+	position: absolute;
+	width: 236px;
+	height: 315px;
+}

@@ -1,0 +1,125 @@
+@CHARSET "UTF-8";
+
+div, span, object, iframe, h1, h2, h3, h4, h5, h6, p, blockquote, pre, a,
+	abbr, acronym, address, code, del, dfn, em, img, q, dl, dt, dd, ol, ul,
+	li, fieldset, form, label, legend, table, caption, tbody, tfoot, thead,
+	tr, th, td, article, aside, dialog, figure, footer, header, hgroup, nav,
+	section {
+	margin: 0;
+	padding: 0;
+	border: 0;
+	font-size: 100%;
+	font: inherit;
+	vertical-align: baseline;
+}
+
+a {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+a:link {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+a:visited {
+	color: #1a1a1a;
+	text-decoration: none;
+}
+
+img {
+	border: none;
+	line-height: 0;
+	font-size: 0;
+}
+
+a img {
+	border: none;
+}
+
+fieldset {
+	border: 0;
+	line-height: 0;
+}
+
+input {
+	vertical-align: middle;
+}
+
+button, .btn {
+	border: 1px solid red;
+	display: inline-block;
+	zoom: 1;
+	margin: 0;
+	padding: 0;
+	background: none;
+	border: none;
+	text-decoration: none !important;
+	text-align: center;
+	vertical-align: middle;
+	white-space: nowrap;
+	cursor: pointer;
+}
+
+input, textarea, select, button {
+	text-rendering: auto;
+	color: initial;
+	letter-spacing: normal;
+	word-spacing: normal;
+	text-transform: none;
+	text-indent: 0px;
+	text-shadow: none;
+	display: inline-block;
+	text-align: start;
+	margin: 0em;
+	font: 400 13.3333px Arial;
+}
+
+input[type="button" i], input[type="submit" i], input[type="reset" i],
+	input[type="file" i]::-webkit-file-upload-button, button {
+	align-items: flex-start;
+	text-align: center;
+	cursor: default;
+	color: buttontext;
+	background-color: buttonface;
+	box-sizing: border-box;
+	padding: 2px 6px 3px;
+	border-width: 2px;
+	border-style: outset;
+	border-color: buttonface;
+	border-image: initial;
+}
+
+ol, ul, li {
+	list-style: none;
+	font-weight: normal;
+}
+
+/*------------------------------------*/
+/*             내용                         */
+/*------------------------------------*/
+#conts {
+    position: relative;
+    z-index: 10;
+    display: inline-block;
+    display: block;
+    width: 1008px;
+    min-height: 800px;
+    padding: 29px 0 88px;
+    zoom: 1;
+}
+
+/* #cont_wrap {
+    min-height: 100%;
+    margin: 0 auto;
+    background: none;
+}
+
+.clfix {
+    zoom: 1;
+}
+
+.clfix {
+    display: block;
+} */
